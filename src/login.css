@@ -1,0 +1,92 @@
+
+.signup-form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: 450px;
+  width: 250px;
+  color: black;
+  transform: translate(-50%, -50%);
+  background-color: rgb(229, 237, 201);
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 100;
+}
+.login-form{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 250px;
+    width: 250px;
+    color: black;
+    transform: translate(-50%, -50%);
+    background-color: rgb(229, 237, 201);
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 100;
+
+}
+
+.login-form input,
+.signup-form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color:white;
+}
+
+.login-form button,
+.signup-form button {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4cafaa;
+  color: white;
+  cursor: pointer;
+}
+
+.login-form h2,
+.signup-form h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+#close-btn {
+  position: absolute;
+  top: 190px;
+  right: 22px;
+  width:205px;
+  background-color:#4cafaa;
+  cursor: pointer;
+  font-size: 12px;
+  
+}
+#signup-close-btn{
+    position: absolute;
+    top: 360px;
+    right: 22px;
+    width:205px;
+    background-color:#4cafaa;
+    cursor: pointer;
+    font-size: 14px;
+    padding:4px;
+   
+}
+
+.blur-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(5px);
+  z-index: 50;
+}
